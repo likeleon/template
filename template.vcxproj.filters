@@ -7,7 +7,22 @@
   <ItemGroup>
     <ClCompile Include="template.cpp" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="max.cpp" />
-    <ClCompile Include="max2.cpp" />
+    <ClCompile Include="max.cpp">
+      <Filter>Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="max2.cpp">
+      <Filter>Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="max3.cpp">
+      <Filter>Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="max4.cpp">
+      <Filter>Basics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Basics">
+      <UniqueIdentifier>{5d0c7586-8df7-48da-a189-e6698017f375}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
