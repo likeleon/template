@@ -19,6 +19,12 @@
     <ClCompile Include="max4.cpp">
       <Filter>Basics</Filter>
     </ClCompile>
+    <ClCompile Include="stack1.cpp">
+      <Filter>Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="addval.cpp">
+      <Filter>Basics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Basics">

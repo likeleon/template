@@ -13,4 +13,7 @@
 
 
 // TODO: reference additional headers your program requires here
+#include <algorithm>
+#include <deque>
 #include <gtest/gtest.h>
+#include <gmock/gmock.h>

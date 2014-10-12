@@ -84,10 +84,12 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="addval.cpp" />
     <ClCompile Include="max.cpp" />
     <ClCompile Include="max2.cpp" />
     <ClCompile Include="max3.cpp" />
     <ClCompile Include="max4.cpp" />
+    <ClCompile Include="stack1.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -95,6 +97,9 @@
     <ClCompile Include="template.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="external\gmock-1.7.0\msvc\2010\gmock.vcxproj">
+      <Project>{34681f0d-ce45-415d-b5f2-5c662dfe3bd5}</Project>
+    </ProjectReference>
     <ProjectReference Include="external\gtest-1.7.0\msvc\gtest-md.vcxproj">
       <Project>{c8f6c172-56f2-4e76-b5fa-c3b423b31be8}</Project>
     </ProjectReference>
