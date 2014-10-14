@@ -25,6 +25,21 @@
     <ClCompile Include="addval.cpp">
       <Filter>Basics</Filter>
     </ClCompile>
+    <ClCompile Include="stack5decl.cpp">
+      <Filter>Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="stack7decl.cpp">
+      <Filter>Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="zero_init.cpp">
+      <Filter>Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_nonref.cpp">
+      <Filter>Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="shallow_check.cpp">
+      <Filter>Basics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Basics">

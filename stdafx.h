@@ -15,5 +15,6 @@
 // TODO: reference additional headers your program requires here
 #include <algorithm>
 #include <deque>
+#include <vector>
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>

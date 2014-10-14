@@ -1,5 +1,7 @@
 #include "stdafx.h"
 
+namespace stack1 {
+
 template <typename T>
 class Stack {
 public:
@@ -36,7 +38,7 @@ T Stack<T>::Top() const {
 }
 
 template <>
-class Stack<std::string> {
+class Stack < std::string > {
 public:
   void Push(const std::string& elem) {
     elems_.push_back(elem);
@@ -67,3 +69,5 @@ TEST(Basic, Stack1) {
   string_stack.Push("Hello");
   string_stack.Pop();
 }
+
+} // namespace stack1

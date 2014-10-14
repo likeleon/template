@@ -89,12 +89,17 @@
     <ClCompile Include="max2.cpp" />
     <ClCompile Include="max3.cpp" />
     <ClCompile Include="max4.cpp" />
+    <ClCompile Include="ref_nonref.cpp" />
+    <ClCompile Include="shallow_check.cpp" />
     <ClCompile Include="stack1.cpp" />
+    <ClCompile Include="stack5decl.cpp" />
+    <ClCompile Include="stack7decl.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="template.cpp" />
+    <ClCompile Include="zero_init.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="external\gmock-1.7.0\msvc\2010\gmock.vcxproj">
