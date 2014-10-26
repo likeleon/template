@@ -40,10 +40,19 @@
     <ClCompile Include="shallow_check.cpp">
       <Filter>Basics</Filter>
     </ClCompile>
+    <ClCompile Include="adl.cpp">
+      <Filter>Details</Filter>
+    </ClCompile>
+    <ClCompile Include="inject.cpp">
+      <Filter>Details</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Basics">
       <UniqueIdentifier>{5d0c7586-8df7-48da-a189-e6698017f375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Details">
+      <UniqueIdentifier>{a9646f2f-1b2c-4920-be31-012c71b512d2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

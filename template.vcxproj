@@ -85,6 +85,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="addval.cpp" />
+    <ClCompile Include="adl.cpp" />
+    <ClCompile Include="inject.cpp" />
     <ClCompile Include="max.cpp" />
     <ClCompile Include="max2.cpp" />
     <ClCompile Include="max3.cpp" />
