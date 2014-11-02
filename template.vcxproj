@@ -84,9 +84,14 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="accum1.cpp" />
+    <ClCompile Include="accum2.cpp" />
+    <ClCompile Include="accum5.cpp" />
     <ClCompile Include="addval.cpp" />
     <ClCompile Include="adl.cpp" />
     <ClCompile Include="inject.cpp" />
+    <ClCompile Include="isclasst.cpp" />
+    <ClCompile Include="lazy.cpp" />
     <ClCompile Include="max.cpp" />
     <ClCompile Include="max2.cpp" />
     <ClCompile Include="max3.cpp" />
@@ -100,6 +105,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="sumpolicy.cpp" />
     <ClCompile Include="template.cpp" />
     <ClCompile Include="zero_init.cpp" />
   </ItemGroup>

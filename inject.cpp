@@ -34,4 +34,4 @@ class D {
   X<inject::D> e;
 };
 
-} // namespace adl
+} // namespace inject

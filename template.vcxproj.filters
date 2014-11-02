@@ -46,6 +46,24 @@
     <ClCompile Include="inject.cpp">
       <Filter>Details</Filter>
     </ClCompile>
+    <ClCompile Include="lazy.cpp">
+      <Filter>Details</Filter>
+    </ClCompile>
+    <ClCompile Include="accum1.cpp">
+      <Filter>Traits</Filter>
+    </ClCompile>
+    <ClCompile Include="accum2.cpp">
+      <Filter>Traits</Filter>
+    </ClCompile>
+    <ClCompile Include="accum5.cpp">
+      <Filter>Traits</Filter>
+    </ClCompile>
+    <ClCompile Include="sumpolicy.cpp">
+      <Filter>Traits</Filter>
+    </ClCompile>
+    <ClCompile Include="isclasst.cpp">
+      <Filter>Traits</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Basics">
@@ -53,6 +71,9 @@
     </Filter>
     <Filter Include="Details">
       <UniqueIdentifier>{a9646f2f-1b2c-4920-be31-012c71b512d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Traits">
+      <UniqueIdentifier>{70d13f49-4ba7-4a8b-8ee6-ff90662bbc7e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
