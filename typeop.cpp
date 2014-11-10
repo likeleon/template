@@ -37,7 +37,7 @@ void Apply2(typename TypeOp<T>::RefT arg, void(*func)(T)) {
   func(arg);
 }
 
-TEST(Basic, Apply2) {
+TEST(Traits, Apply2) {
   int x = 7;
   Apply2(x, Print);
   Apply2(x, Incr);

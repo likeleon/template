@@ -12,7 +12,7 @@ T Accum(const T* beg, const T* end) {
   return total;
 }
 
-TEST(Basic, Accum1) {
+TEST(Traits, Accum1) {
   int num[] = { 1, 2, 3, 4, 5 };
   EXPECT_EQ(15, Accum(&num[0], &num[5]));
 

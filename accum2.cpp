@@ -22,7 +22,7 @@ typename AccumulationTraits<T>::AccT Accum(const T* beg, const T* end) {
   return total;
 }
 
-TEST(Basic, Accum2) {
+TEST(Traits, Accum2) {
   char name[] = "templates";
   EXPECT_EQ(975, Accum(&name[0], &name[sizeof(name) - 1]));
 }

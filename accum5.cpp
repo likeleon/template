@@ -28,7 +28,7 @@ public:
   }
 };
 
-TEST(Basic, Accum5) {
+TEST(Traits, Accum5) {
   char name[] = "templates";
   EXPECT_EQ(975, Accum<char>::Accumulate(&name[0], &name[sizeof(name) - 1]));
 }

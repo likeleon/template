@@ -67,6 +67,9 @@
     <ClCompile Include="typeop.cpp">
       <Filter>Traits</Filter>
     </ClCompile>
+    <ClCompile Include="promote.cpp">
+      <Filter>Traits</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Basics">

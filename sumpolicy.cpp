@@ -37,7 +37,7 @@ public:
   }
 };
 
-TEST(Basic, SumPolicy) {
+TEST(Traits, SumPolicy) {
   int num[] = { 1, 2, 3, 4, 5 };
   EXPECT_EQ(15, Accum<int>::Accumulate(&num[0], &num[5]));
 }

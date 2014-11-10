@@ -40,7 +40,7 @@ bool CheckT(T) {
 void MyFunc() {
 }
 
-TEST(Basic, IsClassT) {
+TEST(Traits, IsClassT) {
   EXPECT_FALSE(Check<int>());
 
   class MyClass {};
@@ -51,7 +51,7 @@ TEST(Basic, IsClassT) {
   EXPECT_TRUE(CheckT(s));
 
   union MyUnion {};
-  EXPECT_FALSE(Check<MyUnion>());
+  EXPECT_TRUE(Check<MyUnion>());
 
   EXPECT_FALSE(CheckT(MyFunc));
 
