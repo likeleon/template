@@ -18,6 +18,9 @@ public:
 };
 
 template <typename T1, typename T2>
+class Promotion;
+
+template <typename T1, typename T2>
 class Promotion {
 public:
   /*typedef typename
@@ -33,6 +36,12 @@ public:
                T1,
                T2
                > ::ResultT ResultT;
+};
+
+template <typename T>
+class Promotion < T, T > {
+public:
+  typedef T ResultT;
 };
 
 template <typename T1, typename T2>
@@ -52,6 +61,7 @@ struct Foo {
 TEST(Traits, Promote) {
   EXPECT_EQ(3.3, (Foo<int>(1) + Foo<double>(2.3)).val);
   EXPECT_EQ(3.2, (Foo<double>(1.2) + Foo<int>(2)).val);
+  EXPECT_EQ(3.1f, (Foo<float>(1.1f) + Foo<float>(2.0f)).val);
 }
 
 } // namespace promote

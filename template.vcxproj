@@ -90,6 +90,7 @@
     <ClCompile Include="addval.cpp" />
     <ClCompile Include="adl.cpp" />
     <ClCompile Include="promote.cpp" />
+    <ClCompile Include="rparam.cpp" />
     <ClCompile Include="typeop.cpp" />
     <ClCompile Include="inject.cpp" />
     <ClCompile Include="isclasst.cpp" />
